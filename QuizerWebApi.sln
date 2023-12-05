@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65D40535-146C-44E2-AA8E-896D579A0BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7EC05E1D-3671-4BDB-A2D4-824DDF4CE1D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Infrasturcture", "01-Infrasturcture", "{CA539FD9-5D5B-4741-A520-177D40E40393}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-DataAccess", "02-DataAccess", "{ED5253A8-4EB8-4F38-96B2-CB3AAC6FDC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Business", "03-Business", "{354F41F5-C057-4D8B-A050-865C53D2100B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Presentation", "04-Presentation", "{C8880B74-EEAB-4D57-90D0-0A7DEDBC7D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizer.Core", "src\Quizer.Core\Quizer.Core.csproj", "{B22E477A-CB66-475F-B3A7-98CA042690CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizer.Models", "src\Quizer.Models\Quizer.Models.csproj", "{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizer.App", "src\Quizer.App\Quizer.App.csproj", "{0631F4B7-96CF-4F04-AA59-D69D667FC1E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B22E477A-CB66-475F-B3A7-98CA042690CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22E477A-CB66-475F-B3A7-98CA042690CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22E477A-CB66-475F-B3A7-98CA042690CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22E477A-CB66-475F-B3A7-98CA042690CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0631F4B7-96CF-4F04-AA59-D69D667FC1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0631F4B7-96CF-4F04-AA59-D69D667FC1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0631F4B7-96CF-4F04-AA59-D69D667FC1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0631F4B7-96CF-4F04-AA59-D69D667FC1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA539FD9-5D5B-4741-A520-177D40E40393} = {65D40535-146C-44E2-AA8E-896D579A0BD1}
+		{ED5253A8-4EB8-4F38-96B2-CB3AAC6FDC69} = {65D40535-146C-44E2-AA8E-896D579A0BD1}
+		{354F41F5-C057-4D8B-A050-865C53D2100B} = {65D40535-146C-44E2-AA8E-896D579A0BD1}
+		{C8880B74-EEAB-4D57-90D0-0A7DEDBC7D9A} = {65D40535-146C-44E2-AA8E-896D579A0BD1}
+		{B22E477A-CB66-475F-B3A7-98CA042690CA} = {CA539FD9-5D5B-4741-A520-177D40E40393}
+		{1EB5C7DE-1C64-4621-AF91-BE49FAB01FDA} = {CA539FD9-5D5B-4741-A520-177D40E40393}
+		{0631F4B7-96CF-4F04-AA59-D69D667FC1E0} = {C8880B74-EEAB-4D57-90D0-0A7DEDBC7D9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21B1A30E-EF06-4732-8595-6BF161551B8E}
+	EndGlobalSection
+EndGlobal
